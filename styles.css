@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin:0 ;
+  padding: 5;
+}
+li, a, button {
+  font-family:"Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #f5f5f5;
+  text-decoration: none;
+}
+header {
+  position: relative; /* Add position relative to the header */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+nav {
+  order: 1;
+  border: 3px solid rgb(224, 51, 16); /* Add a border at the bottom of the nav bar */
+  border-width: 3px;
+}
+
+.nav_links {
+  list-style: none;
+}
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li:nth-child(1){
+  padding: 0 20px 0 0;
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    color: #faa200;
+}
+
+button {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: #faa200;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color:#da531a; 
+}
+.header-container {
+  background-image: url(images/comic_book_background.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 100px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+}
+.header-container h1 {
+  margin: 0;
+  color: #ffffff; 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:#282828;
+  color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Change this line */
+  gap: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+
+#menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex-direction: column;
+  min-height: 30vh;
+  border: 3px solid rgb(224, 51, 16); /* Add border around the menu */
+  padding: 10px; /* Add padding inside the menu */
+  padding-right: 25px;
+  margin-top: 60px; /* Add margin to align with the top of the canvas */
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+
+
+#canvasContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid rgb(224, 51, 16);
+  width: fit-content;
+  height: fit-content;
+  padding: 1px;
+  box-sizing: content-box;
+  margin-top: 60px;
+}
+footer {
+  margin-top: 160px;
+  background-color: #d3d3d3;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+  
+  
